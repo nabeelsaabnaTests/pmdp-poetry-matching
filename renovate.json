@@ -9,6 +9,15 @@
       "matchPackageNames": [
         "python-multipart"
       ],
+      "versioning": "pep440"
+    },
+    {
+      "matchDatasources": [
+        "pypi"
+      ],
+      "matchPackageNames": [
+        "python-multipart"
+      ],
       "matchCurrentVersion": "==0.0.5",
       "allowedVersions": ">= 0.0.7",
       "vulnerabilityAlert": true,
@@ -29,8 +38,7 @@
       "suppressNotifications": [
         "prIgnoreNotification",
         "prEditNotification"
-      ],
-      "versioning": "pep440"
+      ]
     }
   ]
 }
