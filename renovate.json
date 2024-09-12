@@ -1,5 +1,5 @@
 {
-  "dependecyDashboard": true,
+  "dependencyDashboard": true,
   "packageRules": [
     {
       "matchDatasources": [
