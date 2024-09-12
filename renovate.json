@@ -1,0 +1,40 @@
+{
+  "dependecyDashboard": true,
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "pypi"
+      ],
+      "matchPackageNames": [
+        "python-multipart"
+      ],
+      "matchCurrentVersion": "==0.0.5",
+      "allowedVersions": ">= 0.0.7",
+      "dependencyDashboardApproval": false,
+      "labels": [
+        "rule-1"
+      ],
+      "prBodyNotes": [
+        "By merging this PR, rule 1"
+      ]
+    },
+    {
+      "matchDatasources": [
+        "pypi"
+      ],
+      "matchPackageNames": [
+        "python-multipart"
+      ],
+      "matchCurrentVersion": "== 0.0.5",
+      "allowedVersions": ">= 0.0.7",
+      "dependencyDashboardApproval": false,
+      "labels": [
+        "rule-2"
+      ],
+      "prBodyNotes": [
+        "By merging this PR, rule 2"
+      ]
+    }
+  ]
+  
+}
