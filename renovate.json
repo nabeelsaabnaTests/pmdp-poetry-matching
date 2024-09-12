@@ -29,7 +29,8 @@
       "suppressNotifications": [
         "prIgnoreNotification",
         "prEditNotification"
-      ]
+      ],
+      "versioning": "pep440"
     }
   ]
 }
