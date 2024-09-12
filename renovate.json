@@ -9,15 +9,6 @@
       "matchPackageNames": [
         "python-multipart"
       ],
-      "versioning": "pep440"
-    },
-    {
-      "matchDatasources": [
-        "pypi"
-      ],
-      "matchPackageNames": [
-        "python-multipart"
-      ],
       "matchCurrentVersion": "==0.0.5",
       "allowedVersions": ">= 0.0.7",
       "vulnerabilityAlert": true,
@@ -28,6 +19,36 @@
       "dependencyDashboardApproval": false,
       "labels": [
         "security fix 1"
+      ],
+      "prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}{{{controls}}}",
+      "prBodyNotes": [
+        "By merging this PR, the issue #2 will be automatically resolved and closed:\n\n| Severity           | <a href='#'><img src='https://whitesource-resources.whitesourcesoftware.com/cvss3.png' width='19' height='20'></a> CVSS Score       |CVE  |\n|---|---|---|\n| ![High](https://whitesource-resources.whitesourcesoftware.com/high_vul_bb.png?) High | 7.5 | [CVE-2024-24762](https://www.mend.io/vulnerability-database/CVE-2024-24762) |\n<!--[REMEDIATE_ANALITICS]{\"libraryData\":{\"libraryName\":\"python-multipart\",\"libraryVersion\":\"0.0.5\",\"libraryFixVersion\":\"0.0.7\",\"libraryArtifactId\":\"python-multipart\",\"language\":\"Python\"},\"vulnerabilityData\":[{\"severity\":\"High\",\"score\":\"7.5\",\"vulnerabilityId\":\"CVE-2024-24762\"}]}[/REMEDIATE_ANALITICS]-->"
+      ],
+      "isVulnerabilityAlert": true,
+      "commitMessageSuffix": "",
+      "suppressNotifications": [
+        "prIgnoreNotification",
+        "prEditNotification"
+      ]
+    },
+    {
+      "matchDatasources": [
+        "pypi"
+      ],
+      "matchPackageNames": [
+        "python-multipart"
+      ],
+      "matchCurrentVersion": "0.0.5",
+      "matchManagers": ["poetry"],
+      "allowedVersions": ">= 0.0.7",
+      "vulnerabilityAlert": true,
+      "enabled": true,
+      "ignoreUnstable": false,
+      "groupName": null,
+      "schedule": [],
+      "dependencyDashboardApproval": false,
+      "labels": [
+        "security fix 2"
       ],
       "prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}{{{controls}}}",
       "prBodyNotes": [
